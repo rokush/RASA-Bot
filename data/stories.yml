@@ -1,0 +1,647 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: Out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: I am a bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: happy path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: react_positive
+  - action: utter_positive
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: sad path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: tell me a joke (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: telljoke
+  - action: utter_telljoke
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: tell me a joke (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: telljoke
+  - action: utter_telljoke
+  - intent: deny
+  - action: utter_goodbye
+
+- story: admission (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_info
+  - action: utter_admission_info
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: admission (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_info
+  - action: utter_admission_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: programs (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: programs
+  - action: utter_programs
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: programs (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: programs
+  - action: utter_programs
+  - intent: deny
+  - action: utter_goodbye
+
+- story: branch info (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branch_info
+  - action: utter_branch_info
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: branch info (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: branch_info
+  - action: utter_branch_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: check regular eligibility (happy path)
+  steps:
+  - intent: eligibility_regular
+  - action: utter_eligibility_regular
+  - intent: eligibility_lateral
+  - action: utter_eligibility_lateral
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: check regular eligibility (sad path)
+  steps:
+  - intent: eligibility_regular
+  - action: utter_eligibility_regular
+  - intent: eligibility_lateral
+  - action: utter_eligibility_lateral
+  - intent: deny
+  - action: utter_goodbye
+
+- story: check LE eligibility (happy path)
+  steps:
+  - intent: eligibility_lateral
+  - action: utter_eligibility_lateral
+  - intent: eligibility_regular
+  - action: utter_eligibility_regular
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: check LE eligibility (sad path)
+  steps:
+  - intent: eligibility_lateral
+  - action: utter_eligibility_lateral
+  - intent: eligibility_regular
+  - action: utter_eligibility_regular
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fees process (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fee_info
+  - action: utter_fee_info
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: fees process (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fee_info
+  - action: utter_fee_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: admission enquiry (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_enquiry
+  - action: utter_admission_enquiry
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: admission enquiry (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_enquiry
+  - action: utter_admission_enquiry
+  - intent: deny
+  - action: utter_goodbye
+
+- story: documents required (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: documents_required
+  - action: utter_documents_required
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: documents required (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: documents_required
+  - action: utter_documents_required
+  - intent: deny
+  - action: utter_goodbye
+
+- story: payment procedure (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: payment_procedure
+  - action: utter_payment_procedure
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: payment procedure (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: payment_procedure
+  - action: utter_payment_procedure
+  - intent: deny
+  - action: utter_goodbye
+
+- story: refund policy (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: refund_policy
+  - action: utter_refund_policy
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: refund policy (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: refund_policy
+  - action: utter_refund_policy
+  - intent: deny
+  - action: utter_goodbye
+
+- story: hostel info (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel_info
+  - action: utter_hostel_info
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: hostel info (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel_info
+  - action: utter_hostel_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: get forms (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: forms
+  - action: utter_forms
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: get forms (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: forms
+  - action: utter_forms
+  - intent: deny
+  - action: utter_goodbye
+
+- story: alumini info (happy path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: alumini
+  - action: utter_alumini
+  - intent: thank
+  - action: utter_ask_anything_else
+
+- story: alumini info (sad path)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: alumini
+  - action: utter_alumini
+  - intent: deny
+  - action: utter_goodbye
+
+- story: career info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: career
+  - action: utter_career
+
+- story: students counselling
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: students_counselling
+  - action: utter_students_counselling
+
+- story: anti ragging
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: antiragging
+  - action: utter_antiragging
+
+- story: Medical
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: medical
+  - action: utter_medical
+
+- story: Brochure
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: brochure
+  - action: utter_brochure
+
+- story: scholar ship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: scholarship
+  - action: utter_scholarship
+
+- story: top companies
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: top_company
+  - action: utter_top_company
+
+- story: highest packages
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: highest_package
+  - action: utter_highest_package
+
+- story: Mass recruiter of abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mass_recruiter
+  - action: utter_mass_recruiter
+
+- story: Btech placement record
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: placement_record_btech
+  - action: utter_placement_record_btech
+
+- story: MBA placement record
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: placement_record_mba
+  - action: utter_placement_record_mba
+
+- story: MCA placement record
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: placement_record_mca
+  - action: utter_placement_record_mca
+
+- story: why should i chose abses
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: why_abes_for_placement
+  - action: utter_why_abes_for_placement
+
+- story: average package
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: average_package
+  - action: utter_average_package
+
+- story: Types of company
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: company_type
+  - action: utter_company_type
+
+- story: About ABES engineering college
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+
+- story: Where is ABES engineering college
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: where_is_abes
+  - action: utter_where_is_abes
+
+- story: Sports in abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: abes_sports
+  - action: utter_abes_sports
+
+- story: TEDxABESEC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ted
+  - action: utter_ted
+
+- story: Genero abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: genero
+  - action: utter_genero
+
+- story: Library abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: library
+  - action: utter_library
+
+- story: HUHC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: huhc
+  - action: utter_huhc
+
+- story: canteen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: canteen
+  - action: utter_canteen
+
+- story: occation in abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: occasion
+  - action: utter_occasion
+
+- story: clubs in abesec path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: clubs
+  - action: utter_clubs
+  - action: action_clubs
+
+- story: clubs in abesec path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: clubs
+  - action: action_clubs
+
+- story: Details of abesec classroom and halls etc
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: infrastr
+  - action: utter_infrastr
+
+- story: Details of abesec centre of excellence
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: centre_of_excellence
+  - action: utter_centre_of_excellence
+
+- story: Photographs of abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: photos
+  - action: utter_photos
+
+- story: lakshya academy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: lakshya
+  - action: utter_lakshya
+
+- story: college virtual tour
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: virtual_tour
+  - action: utter_virtual_tour
+
+- story: academic calender
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: academic_calender
+  - action: utter_academic_calender
+
+- story: Internal Quality Assurance Cell
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: iqac
+  - action: utter_iqac
+
+- story: National Institutional Ranking Framework
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: nirf
+  - action: utter_nirf
+
+- story: SWAYAM-NPTEL
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: nptel
+  - action: utter_nptel
+
+- story: Centre of Excellence for Teaching and Learning
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cetl
+  - action: utter_cetl
+
+- story: HR portal abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hr_portal
+  - action: utter_hr_portal
+
+- story: Publications in abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: publication
+  - action: utter_publication
+
+- story: SIM login
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sim
+  - action: utter_sim
+
+- story: contact us
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contactus
+  - action: utter_contactus
+
+- story: uav at abesec
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: uav
+  - action: utter_uav
+
+- story: my creater
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: father
+  - action: utter_father
+
+
+- story: abuse path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: abuse_bot
+  - action: utter_abuse_reply
+
+- story: abuse path 2
+  steps:
+  - intent: abuse_bot
+  - action: utter_abuse_reply
+
+- story: abuse path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: abuse_bot
+  - action: utter_abuse_reply
+  - intent: ask_abuse_reply
+  - action: utter_reply_why_abuse
+  - intent: regret_abuse_reply
+  - action: utter_happy
+
+- story: abuse path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: abuse_bot
+  - action: utter_abuse_reply
+  - intent: regret_abuse_reply
+  - action: utter_happy
+
+
+
+
+
+

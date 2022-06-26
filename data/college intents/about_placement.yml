@@ -1,0 +1,387 @@
+version: "2.0"
+nlu:
+- intent: top_company
+  examples: |
+    - top companies
+    - top company batao
+    - top company konsi hai
+    - show me the list of top companies
+    - list the highest paid companies
+    - show me the companies with highest package
+    - top companies that provied offers
+    - top companies of abesec
+    - top companies for campus placement
+    - top companies for placement in abeseec
+    - highest package companies in abesec
+    - highest paid companies
+    - high package
+    - large package
+    - 10 lpa companies
+    - 15 lpa companies
+    - 20 lpa companies
+    - 29 lpa companies
+    - more package company
+    - show me the list of highest paid companies
+    - companies that provide higher packages
+    - sabse zyda paise wali companies
+    - show some highest paid company in campus
+    - can I have look on highest paid companies
+    - could you please show me top companies
+    - top companies visit in abesec
+    - top companies for naukri
+    - highest paid sallery companies in abesec
+    - good companies
+    - acchi companies k naam batao
+    - show some top package companies
+    - do you have some top companies list
+    - 10 lakh wali companies
+    - 20 lakh wali companies
+    - highest popular company
+    - company that provide highest package
+    - highest package one can get in abesec
+    - top quality companies
+    - top software companies
+    - top networking companies
+    - top UX/UI companies
+    - highest paid software development comapnies
+    - sabse zyda paise dene wali companies
+    - high package companies
+    - large package companies
+    - show some good package companies
+
+
+
+- intent: highest_package
+  examples: |
+    - highest package of abesec
+    - highest package
+    - highest package i can get
+    - highest package one can get
+    - highest package in abesec one can get
+    - highest package of year 2019
+    - highest package of year 2020
+    - top package provided
+    - highest package provided by abesec
+    - highest package of college
+    - highest package of ABES engineering college
+    - acche package wali compny
+    - sabse zyda package konsi company deti hai
+    - abesec me sabse zyda package konsi company deti h
+    - highest package in aktu best college
+    - kitna maximum package milta hai yaha
+    - maximum package of abesec
+    - highest sallery package of abesec
+    - maximum sallery package of abesec
+    - maximum sallery of abesec student
+    - highest package of student after placement
+    - zyda se zyda kitna sallery package milega muje
+    - zyda se zyda kitni sallery milegi muje abes se
+    - how much sallery I can get after placement in abesec
+    - how much you provide as a maximum sallery package
+    - higghhhets package
+    - height package
+    - heigtets package
+    - maxxx package
+    - maxwell package
+
+- intent: mass_recruiter
+  examples: |
+    - mass recruiter
+    - mass recruiter konsi company hoti hai
+    - what is mass recruiter
+    - which companies are mass recruiter
+    - give me name of mass recruiter
+    - tell me names of mass recruiter
+    - can i have list of mass recruiter
+    - mass recruiter companies k naam batao
+    - muje naam chaiye mass recruiter companies k
+    - which companies are mass recruiter
+    - name the mass recruiter companies
+    - how many companies are mass recruiter
+    - mass recruiter kya hai
+    - mass recruiter k naam batao
+    - how many vacancy are there in mass recruiter
+    - how many students placed in mass recruiter companies
+    - all mass recruiter companies name
+    - when mass recruiter comes for placement
+    - what is the sallery package of mass recruiter companies
+    - mass recruiter ka kya mtlb hota hai
+    - muje mass recruiter se kya fayda
+    - I need to know about mass recruiter
+    - I wanna know about mass recruiter
+    - i want information about mass recruiter
+    - can you please tell me about mass recruiter
+    - about mass recruiter
+    - tell me something about mass recruiter
+    - give me some info regarding mass recruiter
+    - muje info dedo mass recruiter k liye
+    - name of all mass recruiter companies of abesec
+
+- intent: placement_record_btech
+  examples: |
+    - show me the placement record btech
+    - btech placement report
+    - btech plcement records
+    - btech placement for year 2020
+    - btech placement for year 2019
+    - btech placement report in abesec
+    - btech placement report for 2020
+    - btech placement report for 2018
+    - show me some btech placement record
+    - list the btech placement record
+    - show some btech placement
+    - i want btech placement record
+    - I want list of btech placement report right now
+    - Btech placement ke list dikhao
+    - btech placment ke report dikhao
+    - show me record of placement for btech
+    - btech k record dikhao
+    - btech  k placement k record dikhao
+    - btech placement btech placement
+    - btech placement report of last year
+    - btech placement report for previous year
+    - btech placement report for current year
+    - btech placement report for last to last year
+    - btech placement record for last year
+    - muje btech placement ka record chaiye
+    - muje btech placement ke report chaiye
+    - I need btech placement report
+    - I need btech placement record for this year
+    - BTECH PLACEMENT RECORD
+    - btech placement record chaiye muje
+    - btech placement record nikal k do jaldi
+    - i need btech placement asap
+    - i need btech placement for your college
+    - want btech placement for abesec
+    - btech course k placment record chaiye muje
+    - btech course placement record need
+    - want btech placement recod
+    - want btech placement reprt
+    - need btech placement recod
+    - record of student in btech placement
+    - show me the record of students in btech placement
+    - btech placement k record dikha de yaar
+    - btech placement me kitno ka 10 lpa laga
+    - how many student in btech placement get highest packages
+    - no of students of btech placement apper
+    - appeared student in btech placement
+    - btech placement record of ABES ENGINEERING COLLEGE
+    - btech placement record in your college
+    - college me btech placement ke report milegi ?
+    - how many get 10 lpa im btech placement
+
+- intent: placement_record_mba
+  examples: |
+    - show me the placement record mba
+    - mba placement report
+    - mba plcement records
+    - mba placement for year 2020
+    - mba placement for year 2019
+    - mba placement report in abesec
+    - mba placement report for 2020
+    - mba placement report for 2018
+    - show me some mba placement record
+    - list the mba placement record
+    - show some mba placement
+    - i want mba placement record
+    - I want list of mba placement report right now
+    - mba placement ke list dikhao
+    - mba placment ke report dikhao
+    - show me record of placement for mba
+    - mba k record dikhao
+    - mba  k placement k record dikhao
+    - mba placement mba placement
+    - mba placement report of last year
+    - mba placement report for previous year
+    - mba placement report for current year
+    - mba placement report for last to last year
+    - mba placement record for last year
+    - muje mba placement ka record chaiye
+    - muje mba placement ke report chaiye
+    - I need mba placement report
+    - I need mba placement record for this year
+    - mba PLACEMENT RECORD
+    - mba placement record chaiye muje
+    - mba placement record nikal k do jaldi
+    - i need mba placement asap
+    - i need mba placement for your college
+    - want mba placement for abesec
+    - mba course k placment record chaiye muje
+    - mba course placement record need
+    - want mba placement recod
+    - want mba placement reprt
+    - need mba placement recod
+    - record of student in mba placement
+    - show me the record of students in mba placement
+    - mba placement k record dikha de yaar
+    - mba placement me kitno ka 10 lpa laga
+    - how many student in mba placement get highest packages
+    - no of students of mba placement apper
+    - appeared student in mba placement
+    - mba placement record of ABES ENGINEERING COLLEGE
+    - mba placement record in your college
+    - college me mba placement ke report milegi ?
+    - how many get 10 lpa im mba placement
+
+
+- intent: placement_record_mca
+  examples: |
+    - show me the placement record mca
+    - mca placement report
+    - mca plcement records
+    - mca placement for year 2020
+    - mca placement for year 2019
+    - mca placement report in abesec
+    - mca placement report for 2020
+    - mca placement report for 2018
+    - show me some mca placement record
+    - list the mca placement record
+    - show some mca placement
+    - i want mca placement record
+    - I want list of mca placement report right now
+    - mca placement ke list dikhao
+    - mca placment ke report dikhao
+    - show me record of placement for mca
+    - mca k record dikhao
+    - mca  k placement k record dikhao
+    - mca placement mca placement
+    - mca placement report of last year
+    - mca placement report for previous year
+    - mca placement report for current year
+    - mca placement report for last to last year
+    - mca placement record for last year
+    - muje mca placement ka record chaiye
+    - muje mca placement ke report chaiye
+    - I need mca placement report
+    - I need mca placement record for this year
+    - mca PLACEMENT RECORD
+    - mca placement record chaiye muje
+    - mca placement record nikal k do jaldi
+    - i need mca placement asap
+    - i need mca placement for your college
+    - want mca placement for abesec
+    - mca course k placment record chaiye muje
+    - mca course placement record need
+    - want mca placement recod
+    - want mca placement reprt
+    - need mca placement recod
+    - record of student in mca placement
+    - show me the record of students in mca placement
+    - mca placement k record dikha de yaar
+    - mca placement me kitno ka 10 lpa laga
+    - how many student in mca placement get highest packages
+    - no of students of mca placement apper
+    - appeared student in mca placement
+    - mca placement record of ABES ENGINEERING COLLEGE
+    - mca placement record in your college
+    - college me mca placement ke report milegi ?
+    - how many get 10 lpa im mca placement
+
+- intent: why_abes_for_placement
+  examples: |
+    - why should I choose abes for placement
+    - abes he kyu placement  k liye
+    - abes for placement is no good
+    - does abes for placement is good
+    - does abes is good for placement
+    - abes for placement is no a good idea
+    - abes for placement is worth it or not ?
+    - does abes for placement is worth it
+    - why abes
+    - why abesec
+    - why abesec for placement
+    - abes for placement he kyu
+    - why should i choose abesec for placment
+    - abesec he kyu placement k liye
+    - abesec accha hai placement k liye ??
+    - why abesec is placement
+    - why abesec is good for placement
+    - why ABESEC for placement
+    - how can you sath you are best at placement
+    - why abesec is better for placements
+    - why I choose abesec for placemenet
+    - give me reason for placement in abesec
+    - do you have any reasons so i can get placement in abesec
+    - can you provide me the reason for abesec placement
+    - do you help me why abes placement
+    - please clarify that why abesec for placement
+    - what reason i consider for abesec for placement
+    - why one should choose abesec for placement
+    - why I will choose abesec for my placemnt
+    - does abesec is good for my future placement
+    - WHY WHY WHY WHY WHY WHY WHY WHY WHY abesec
+    - what reason for abesec placement
+    - give me reason for abes placement
+    - why dont you give me a reason for abesec placement
+    - are you giving me a reason for abes placement
+    - why the hell Im going to choose abesec
+    - is this enough for taking placement in abesec
+    - give me valid reason for abesec placement
+    - mai kyu lu abes me placement
+    - do you have any reason for abes placement
+    - WHYYY ABESEC
+
+
+- intent: average_package
+  examples: |
+    - what is the average package
+    - what is the average package of abesec
+    - average package of abesec
+    - average package
+    - avg package
+    - average pack
+    - average package of this college
+    - average package of abesec
+    - average package
+    - average package i can get
+    - average package one can get
+    - average package in abesec one can get
+    - average package of year 2019
+    - average package of year 2020
+    - average package provided by abesec
+    - average package of college
+    - average package of ABES engineering college
+    - average package wali compny
+    - average package konsi company deti hai
+    - abesec me sabse average package konsi company deti h
+    - average package in aktu best college
+    - average sallery package of abesec
+    - average  sallery package of abesec
+    - average  sallery of abesec student
+    - average package of student after placement
+    - how much sallery I can get after placement in abesec
+    - how much you provide as a average  sallery package
+    - average kitne ka package lagega mera
+    - average kitna lag sakta h mera
+    - avg kitna hai
+    - how much will be the average of abesec
+    - how much will be the sverage sallery package
+    - average sallery package
+    - average kitne ka lag jayaga mera
+    - mera kitne ka lag sakta hai average
+    - ABESEC average package last year
+    -
+
+- intent: company_type
+  examples: |
+    - how many types of company do you have
+    - types of company arrived at abes
+    - kitne tarah ke company aati hai
+    - kitne prakar ke company
+    - types of company that I found in abesec
+    - how types of company in abesec
+    - how many variation of company do visit in abesec
+    - can you please tell me how many types of company visit abesec
+    - types of company that had been visited
+    - types of company
+    - types of companytypes of company
+    - company of types
+    - COMPANY K TYPES
+    - how company types visit
+    - how many types of types of company
+    - types of company do you prefer for placement
+    - types of company had visited
+    - category of company visit in your college
+    - types of company for btech
+    - types of company for placement in abesec
+    - how can you classify types of companytelljoke

@@ -1,0 +1,470 @@
+version: "2.0"
+
+nlu:
+- intent: virtual_tour
+  examples: |
+    - can I have glimpes of abesed
+    - can I have glimpes of your college
+    - can you show me glimpes of abesec
+    - can you show me glimpes of college
+    - virtual tour
+    - virtual tour of abesec
+    - virtual tour of your college
+    - can I have virtual tour of your college
+    - can I have virtual tour of abesec
+    - virtual tour dikha do
+    - virtual tour dekhna tha yaar
+    - virtual tour dikha sakte ho ?
+    - virtual tour hai ??
+    - can I have virtual wala tour
+    - muje virtual tour dekhna tha
+    - show me virtual tour
+    - show me virtual tour of your college
+    - show me actual virtual tour of your collegee
+    - can I have glimpse
+    - virtual tour abesec
+    - virtual tour ABESEC
+    - virtual tour abes engineering college
+    - virtual tour dikha de ek baar
+    - virtual tour please
+    - please show me virtual tour
+    - please show me virtual tour of abesec
+    - virtual tour dikha na jaldi
+    - what do you have in virtual tour
+    - show me some virtual tour of your college
+    - hey Nebula virtual tour show
+    - show virtual tour asap
+    - show virtual tour
+    - link for virtual tour
+    - AR virtual tour of college
+    - virtual tour of college campus
+    - virtual tour of ground
+    - virtual tour of library
+    - virtual tour of CLASSES
+    - I want virtual tour of abesec
+    - I wanna see virtual tour
+    - can I have a look of abese
+    - look of virtual tour of abesec
+    - virtual tour ababesc
+    - abesec ka virtual tour dikhao
+    - virtual tour dikhaa sakte ho tum
+
+- intent: academic_calender
+  examples: |
+    - academic calender
+    - varshik calender
+    - academic calender of last year
+    - academic calender of this year
+    - academic calender of precious year
+    - latest academic calender
+    - academic calender year 2020
+    - academic calender year 2021
+    - academic calender milega kya
+    - show me latest academic calender
+    - give me academic calender
+    - give me a copy of academic calender
+    - download a copy of academic calender
+    - calender milega kya
+    - college ka calander chaiye muje
+    - academic calender de do
+    - please provide me academic calender
+    - can I have a copy of academic calander
+    - could you provide me academic calender
+    - copy of academic calender
+    - academic calender dede na
+    - iss saal ka academic calender
+    - pichle saal ka academic calender
+    - calender
+    - academic calender
+    - calandaaar
+    - acadmaic celendar
+    - admic celebder
+    - academic calender
+    - ACADEMIC CALENDER
+    - keh diya na academic calender
+    - show me latest copy of academic calender
+    - link academic calender
+    - link for academic calender
+    - link to download academic calender
+    - latest academic calender download link
+    - academic calender ka lastest link dedo
+
+- intent: iqac
+  examples: |
+    - IQAC
+    - iqac
+    - iqqaf
+    - IQAAC
+    - IAqf
+    - iqacF
+    - I Q A C
+    - what is iqac
+    - Internal Quality Assurance Cell of abesec
+    - do you have any quality assurance cell
+    - what is Internal Quality Assurance Cell
+    - wht is iqac
+    - w8 is Internal Quality Assurance Cell
+    - w8 is iqac
+    - what is the role of IQAC
+    - role of IQAC
+    - IQAC role in abesec
+    - IQAC kya kaam krti hai
+    - IQAC ka kya kaam hai
+    - IQAC kyu hai
+    - hai kya ye IQAC
+    - IQAC se kuch hota hai
+    - IQAC kaise hai
+    - why IQAC
+    - whn IQAC
+    - where IQAC
+    - IQACIQAC
+    - itefaq
+    - IQAC wht is
+    - IQAC of abesec
+    - IQAC in abesec
+    - IQAC of college
+    - IQAC working
+    - IQAC roll
+    - roll of IQAC ABESEC
+- intent: nirf
+  examples: |
+    - nirf
+    - National Institutional Ranking Framework
+    - what is National Institutional Ranking Framework
+    - how is National Institutional Ranking Framework
+    - what is NIRF
+    - NIRF
+    - N I R F
+    - nirf
+    - nirrff
+    - nerf
+    - nref
+    - nirf
+    - nerf
+    - nrif
+    - nnirf
+    - nrft
+    - nerff
+    - what is nirf
+    - stand for nirf
+    - what is nirf in abesec
+    - is abesec is approved by nirf
+    - does abesec affliated from nirf
+    - link dena nirf
+    - NIRF ranking of abesec
+    - nirf rankk
+    - rank nirf abesec
+    - nirf rank in abesec
+    - nirf me abese ke rank kya hai
+    - NIRF me abes engineering college ke rank
+
+- intent: nptel
+  examples: |
+    - nptel
+    - naptol
+    - NPTEL
+    - N P T E L
+    - NNPTEL
+    - nptal
+    - noptl
+    - naptl
+    - nptel
+    - SWAYAM-NPTEL
+    - whn is SWAYAM-NPTEL
+    - what is SWAYAM-NPTEL
+    - about swayam-nptel
+    - tell me about swayam-nptel
+    - what is NPTEL
+    - NPTEL k bare me kuch batao
+    - NPTEL in abesec
+    - any new things about NPTEL
+    - NPTEL kya hai
+    - NPTEL k courses kya hai
+    - nptel kya hai
+    - nptel k bare me kuch batao
+    - naptel kya hai
+    - what  is naptel
+    - nptel is what
+    - w8 is nptel
+    - nptel objective
+    - nptel certification
+    - nptel certificate
+    - nptel faculty
+    - nptel top rankers
+    - nptel ke rank kya hai
+    - nptel for abesec
+    - nptel in abesec
+    - nptel k courses
+    - free courses for nptel
+- intent: cetl
+  examples: |
+    - cetl
+    - CETL
+    - C E T L
+    - CCTEL
+    - ceetl
+    - ceetll
+    - cetl kya hai
+    - what is cetl
+    - tell me about cetl
+    - show me some data about cetl
+    - what is Centre of Excellence for Teaching and Learning
+    - Centre of Excellence for Teaching and Learning
+    - about Centre of Excellence for Teaching and Learning
+    - tell me about Centre of Excellence for Teaching and Learning
+    - tell me about cetl
+    - cetl kya hai
+    - what is cetl
+    - cetl kya hota hai
+    - where is cetl
+    - cetl kaha hai
+    - info about cetl
+    - about cetl in details
+    - cetl kya hai abesec me
+    - any info regarding cetl
+    - teacher excellence ka kya scene hai
+    - cetl is for what
+    - aim for cetl
+    - what is the aim of cetl
+    - what is objective of cetl
+    - ctel kya hai
+    - cetl kya hai
+    - cetl me kya hota hai
+    - what is the purpose of cetl
+    - cetl ka purpose kya hai
+
+- intent: hr_portal
+  examples: |
+    - hr
+    - HR
+    - H R
+    - h r
+    - HAR
+    - hr portal tak le chalo
+    - hr kya hota hai
+    - abes hr portal
+    - abes hr
+    - HR of abes
+    - HUMAN RESOURCES
+    - human resource of abesec
+    - human r
+    - hr kya hai
+    - take me to the hr portal
+    - hr portal link
+    - hr portal ka link dedo
+    - please give me hr portal link
+    - show me hr portal link
+    - show me the latest hr portal
+    - go to hr portal
+    - what is hr portal
+    - kya hota ye hr portal
+    - abes ka hr portal
+    - abes ka hr portal dikhana
+    - hr portal me kya hota hai
+    - hr portal hai abes me ?
+    - hr portal abesec
+    - hr portal of abes engineerging college
+    - hr portal ka pravesh dwar dikhao
+    - hr portal me jane ka rasta
+    - hr portal  entry link
+    - hr portal le chalo
+    - chalo le chale tumhe hr portal me
+    - hr portal take to
+    - take me to hr portal right now
+    - show link for hr portal asap
+    - hr portal ka kya scene hai
+
+- intent: publication
+  examples: |
+    - publication
+    - publication kya hota hai
+    - publication is what
+    - what is publication ?
+    - what are publication in abesec
+    - how many publication abesec have
+    - authors for publication in abesec
+    - publication for abesec teachers
+    - publication named after teachers
+    - publication report
+    - publication report dena
+    - publication report hai kya
+    - what  is publication report
+    - show me publication report
+    - what are the publication report
+    - publication kya hai abesec me
+    - list publication report
+    - download publication report
+    - abesec publication report
+    - abesec publication report download
+    - abesec publication report download link
+    - abesec publication report download link please
+    - top productive publication authors
+    - publication login link
+    - publication of jounrals
+    - publication for books
+    - publication for jounrals
+    - publication of books
+    - publication of chapters
+    - publication for patents
+    - publication for conference
+    - publication of abesec
+    - publication record of all time
+    - deparment wise publication
+    - show me the list for department wise publication
+    - publication for research paper
+    - publication for pdf and conferences
+    - publication for publication
+    - publication dikhao yaar apne college ke
+    - get me to the publication login page
+    - publication k page pe le chalo muje
+    - kya hota hai publication me
+    - publication me kya hota hai
+- intent: sim
+  examples: |
+    - sim
+    - sem
+    - SIM PORTAL
+    - sim login
+    - SIM LOGIN
+    - SIM login link
+    - sim chaiye muje
+    - sim portal
+    - student attandance portal
+    - student portal
+    - attandance portal
+    - sim portal
+    - sim wala portal
+    - can you please give me sim portal link
+    - give me sim link
+    - sim login krne ka link dedo
+    - sim ka link milega kya
+    - give me sim portal link
+    - can you help me with sim login
+    - sim login krwa do
+    - attandance kaise dekhu
+    - how can I check my attandance
+    - sim pe attandance kaise dekhu
+    - sim ka link dedo please
+    - can you please provide me sim login link
+    - please help me with sim
+    - sim ka password
+    - I want sim login
+    - i wanna see attandance in sim
+    - i wanna see attandance in sim portal
+    - sim me kya kya hota hai
+    - sim ka link muje abhi chaiye
+    - SIM SIM SIM
+    - SEMMM
+    - SIMMM
+
+
+- intent: contactus
+  examples: |
+    - Contact
+    - i need contact details
+    - contact chaiye muje abhi
+    - i wanna contact you
+    - how can i contact you
+    - how can i contact you in social media
+    - I need contact details of abesec
+    - insta contact details
+    - i need contact
+    - i want to contact you
+    - toll free contact no
+    - contact kya hai aapka
+    - mai aapko contact kaise kr skta hu
+    - contact mil skta hai aapka
+    - can i get contact details
+    - fax contact details
+    - telephone contact details
+    - mail contact details
+    - contact information for abesec
+    - contact kya hai aapka
+    - contact krna chate hai hum aako
+    - aap apna contact info de skte hai
+    - can you please help  me with contact
+    - can you please guide me how can i contact you
+    - how can someone contact you
+    - arre bhyii contact kaise kare aapko
+    - muje apke college ke contact details chaiye
+    - how Im going to contact you
+    - help me with contacting you
+    - contact you
+    - contakt kaise kiya jae
+    - give me contact us link
+    - contact us link
+    - contact wala link dena
+    - contact contact
+    - how  can i connect with yoou
+    - how can i contact with you
+    - is there any way to contact you
+    - how many ways to contact you ?
+
+- intent: Uav
+  examples: |
+    - Uav
+    - Uav in abesec
+    - Uav in you 
+    - unmanned aerial vehicle
+    - uav in research
+    - Uav kya hai
+    - what is Uav
+    - when is Uav
+    - what are the Uavs of abesec
+    - Uav of abesec
+    - how Uav  happen in abesec
+    - Uav in ABES engineering college
+    - Uav hai abes me
+    - what are the Uav in abesec
+    - what are the Uav of abesec
+    - is there any Uav in abesec
+    - Uav in academics
+    - Uav kya hai yaha
+    - Uav what is in abesec
+    - Uav hota h kuch
+    - kuch kaam ayagi Uav yaha
+    - show me Uav cycle
+    - show me Uav cycle of abesec
+    - can I have look for Uav page
+    - may i know the Uav at abesec
+    - abesec me Uav ka kya scene hai
+    - Uav me kuch ho skta hai kya
+    - how Uav are implemented in abesec
+    - how can someone knows about Uav
+
+
+- intent: father
+  examples: |
+    - who is you father
+    - tera baap kon h
+    - who is your daddy
+    - who is your grandfather
+    - father
+    - whos your father
+    - who are your makers
+    - who build you
+    - who builts you
+    - who is your owner
+    - who created you
+    - who is you mother
+    - kisne banaya h tumhe
+    - buddy aapke father kon hai
+    - who is your father buddy
+    - buddy aapke papa kon hai
+    - hey buddy aapke father kon hai
+    - hey who is your father
+    - how is your father
+    - name your creatores
+    - name the persons who builds you
+    - name the person who creates you
+    - any one create you
+    - aapke papa ka kya naam hhai
+    - tere baap ka kya naam hai
+    - aapke baap ka kya naam hai
+    - who are your owners
+    - is there your father exist
+    - aapke pita ji kon hai
+    - aapki mummy kon hai
+    - aapko kisne banaya hai
+    - who are your fathers
+    - are you born or built

@@ -1,0 +1,635 @@
+version: "2.0"
+nlu:
+- intent: about_college
+  examples: |
+    - about abes
+    - about abes tell
+    - tell me about abes
+    - show me about abes
+    - about abes info
+    - about abesec
+    - about abes k bare me batao
+    - what is abeseec
+    - abesec kya hai
+    - kya hai ye abesec
+    - tell me about abesec
+    - tell me about abes college
+    - what is abesec
+    - what is abes engineering college
+    - about abes
+    - tell me about abes engineering college
+    - abesec kya hai
+    - abesec k bare me batao
+    - about abesec mission
+    - about abesec vision
+    - about abesec core values
+    - tell me about abesec mission
+    - tell me about abesec vision
+    - tell me about abesec core values
+    - can you tell me about abesec
+    - could you please help to know about abesec
+    - could you please help to know about abes
+    - what is the abesec
+    - when is abesec
+    - who is abesec
+    - where are abesec
+    - kya hota hai ye abesec
+    - abes college kaisa hai
+    - about abeess college
+    - about abes best college of delhi ncr
+    - about abes best college of ghaziabad
+    - iss college ka sanchep me varnan do
+    - abesec k bare me batao kuch
+    - iss college k bare me kuch batao muje
+    - I want to know about abesec
+    - I wanna know details about abesec
+    - give me details about abesec
+    - give me detailed discription of abesec
+    - what are the abesec
+    - kya hota h abesec me
+    - about abesec quality policy
+    - about abesec board of governance
+    - about abesec k liye
+    - about abesec in details
+    - about abesec in hindi
+    - ABES Engineering college
+    - ABES Engineering college details
+    - Tell me about ABES Engineering college
+    - tell me about president of abesec
+    - about ABESEC college
+    - say some words about abesec
+    - give me some data about abesec
+    - provide me some info about abesec
+- intent: where_is_abes
+  examples: |
+    - where is abes
+    - where is abesec
+    - where is abesec situated
+    - where is abesec located
+    - where is abesec currently
+    - address of abesec
+    - provide me location details of abesec
+    - kaha hai abesec location
+    - konsi jgh hai ye abesec
+    - place where abesec located
+    - where is abesec
+    - where is abes engineering college
+    - where is abes college
+    - where is abes founded
+    - where is abesec discoverd
+    - where is abesec invented
+    - full adress of abesec
+    - place where abesec is
+    - detail of abesec location
+    - where is abesec is
+    - take me to the abesec location
+    - show me abesec on map
+    - hai kaha ye college
+    - muje location chaiye abesec ke
+
+- intent: abes_sports
+  examples: |
+    - Sports Facilities of abesec
+    - sports facility
+    - sports in abesec
+    - sports ka kya scene hai abes me
+    - sports in abesec
+    - sports me kya kya hota hai abesec me
+    - sports membership
+    - how many sports happen in abesec
+    - how many sports are there in abesec
+    - sports me kya khilate hai
+    - sports day
+    - when is sports day
+    - swimming pool kaisa hai
+    - how is swimming pool
+    - how is swimming pool is tha
+    - what is swimming pool is tha
+    - abesec has swimming pool ?
+    - when is sports day of abesec
+    - ye tum sports me kya dete ho
+    - sports me kya kr skte hai
+    - sports facility in abesec
+    - sports activities in abesec
+    - sports activities
+    - sports competation in abesec
+    - sports competation
+    - cricket sports in abesec
+    - cricket sports what happen
+    - what happen in sports
+    - scope of sports in abesec
+    - no of sports
+    - number of sports
+    - number of sports played in abesec
+    - sports facility at abesec
+    - sports events in abesec
+    - sports events in your college
+    - do you host any sports event
+    - ranking of abesec in sports
+    - abesec ranking in sports
+    - how much importance you gave to sports
+    - scope of sports in abesec
+    - scope of sports in your college
+
+- intent: ted
+  examples: |
+    - ted
+    - ted is
+    - what is ted
+    - when ted happen in abesec
+    - does abesec hosted any ted
+    - what is ted talk
+    - TEDxABESEC
+    - what is TEDxABESEC
+    - TEDxABESEC kya hai
+    - muje TEDxABESEC k bare me batao
+    - kon kon aya tha TEDxABESEC  me
+    - speakers of tedx
+    - who are the authors at tedx
+    - what is tedx
+    - when is tedx
+    - where is tedx
+    - what is theme of tedx
+    - details about tedx
+    - details about tedx speakers
+    - I want to know about tedx
+    - can i know about tedx
+    - tedxabesec kya hai
+    - tedx kab hua tha
+    - tedx me kon kon aya tha
+    - fees of tedx
+    - kya mai aa sakta hu tedx me
+    - how many enents happen in tedx
+    - can you help me with tedx details
+    - where tedx happen
+    - where tedx occur
+    - location of tedx
+    - when tedx occur
+    - organising team of tedx
+    - prodution manager at tedx
+    - hai kya ye tedx
+    - abesec me kya tedx hota hai
+    - abesec me tedx ka kya kaam
+    - theme kya thi abesec me tedx ke
+
+- intent: genero
+  examples: |
+    - what is genero
+    - genero kya hai
+    - what is genero in abesec
+    - what is the college fest
+    - college fest name
+    - abesec college fest name
+    - aapke college k fest ka kya naam hai
+    - genero me kya hota hai
+    - define genero
+    - tell me about genero
+    - genero me kya kya hota hai
+    - fees of genero
+    - genero  me kon ata hai
+    - who are the guests at genero
+    - when did genero happen
+    - genero kab hota hai
+    - genero k baad kya hota hai
+    - teams of genero
+    - details about genero
+    - what is genero abesec
+    - show some latest pics of abesec
+    - some genero
+    - genero
+    - some details about genero
+    - tell me about genero
+    - show me what is genero
+    - tell me about genero
+    - tell me something about genero
+    - could you please tell ne about genero
+    - genero genero genero
+    - how many days genero runs
+    - how many days will take for genero
+    - how can someone enroll of genero
+    - can you please help me with genero registration
+
+- intent: library
+  examples: |
+    - library
+    - what is library
+    - kya hoti h library
+    - take me to the library
+    - where is library
+    - how big is library
+    - how many books are in library
+    - where is library situated
+    - library at abesec
+    - central library
+    - central library of abesec
+    - library services
+    - digital library
+    - take me to digital library
+    - does your library has ebooks
+    - precious year question paper form library
+    - new arrivals of library
+    - new arrivals in library
+    - library portal
+    - take me to the library portal
+    - give me the link of library prtal
+    - Research Publication of Faculty Members at library
+    - nptel videos form library
+    - library stock books
+    - digital library timings
+    - where is central library
+    - library resources
+    - library dues
+    - library book issue timings
+    - contact details of librarian
+    - mere paas book hai waps kru ?
+    - where is library books
+    - how many books library contains
+    - do you have gate books
+    - ebooks library
+    - E books at library
+    - library timings
+    - library books late fine
+    - research paper publication from library
+- intent: huhc
+  examples: |
+    - huch
+    - huhu
+    - huhc
+    - what is huhc
+    - what is the role of huhc
+    - Help Us to Help the Child kya hai
+    - what  is Help Us to Help the Child
+    - what is objective of Help Us to Help the Child
+    - what is objective of huhc
+    - what is aim of Help Us to Help the Child
+    - what is aim of huhc
+    - what does huhc do
+    - what is the role of huhc
+    - president of Help Us to Help the Child
+    - president of huhc
+    - when huhc was founded
+    - huhc me hota kya hai
+    - huhc me jane k lie kya lagta hai
+    - huhc work
+    - huhc team
+    - huhc photos
+    - art galllery of huhc
+    - who founded huhc
+    - huhc at abesec
+    - huhc in abes
+    - what is huhc in abes
+    - moto of huhc
+    - logo of huhc
+    - how huhc help
+    - how huhc help child
+    - who is huhc head
+    - who is huhc head in abesec
+    - contact details of huhc head
+    - what does huhc organisation do
+    - working of huhc team
+    - team members of huhc
+    - huhc is what
+    - where is huhc
+    - bas huhc join krna hai
+    - H U H C
+    - HUHC
+
+
+- intent: canteen
+  examples: |
+    - canteen
+    - where is canteen
+    - what is canteen
+    - how many canteen you have
+    - how many canteen are there in your college
+    - sabse sasti canteen konsi hai
+    - food canteen
+    - where i can found food
+    - good place for lunch
+    - canteen kaha hai
+    - name canteen
+    - name all the canteens
+    - canteen me kya kya milta hai
+    - food quality of canteen
+    - where are all these canteen
+    - tmens canteen
+    - kalpatru canteen
+    - how many food items thay have
+    - so can i get enough food at canteen
+    - canteen k naam batao
+    - saari canteen k naam batao
+    - sab k sab canteen k naam batao
+    - name all canteen in abesec
+    - name all canteen at abesec
+    - show some food menus at canteen
+    - canteen timings
+    - canteen timings of abesec
+    - cafe in abesec
+    - nescafe in canteen
+    - juice corner of abesec
+    - where is juice corner
+    - where is nescafe of abesec
+    - where is maggi point in abesec
+    - canteen in hostel
+    - canteen in boys hostel
+    - canteen in girls hostel
+    - how many canteen in total does your college have
+    - so there are enough canteen
+    - list all canteens
+    - show me all canteen
+
+- intent: occasion
+  examples: |
+    - occasion
+    - occasion at abesec
+    - occasion in  abesec
+    - latest anouncement at abesec
+    - print media occasion
+    - occasion upcomming
+    - what are the upcoming occasion
+    - occasion kya kya hote hai abesec me
+    - latest news of abesec
+    - where can I found occasion list
+    - show me college happening
+    - latest anouncement of abesec
+    - latest occasion in abesec
+    - latest occasion at abesec
+    - aane wale occasion
+    - take me to the occasion page
+    - occasion ka kya scene hai
+    - muje occasion chaiye
+    - latest news kya hai abesec me
+    - show me the latest news in abesec
+    - video gallery for abesec
+    - upcoming seminars
+    - upcoming webinars
+    - occasion konse hone wale hai
+    - print media kon konsi hai abesec me
+    - muje print media ka pata chaiye
+    - what are the occasion in college
+    - koi muje occasion k bare me batyaga
+    - occasion ka kya scene hai
+    - occasion latest
+    - latest occasion announcement
+- intent: clubs
+  examples: |
+    - clubs
+    - CLUBS
+    - society
+    - society of abesec
+    - society in abesec
+    - how many society are in abesec
+    - clubs how
+    - how many clubs are in abesec
+    - do you haves clubs and society
+    - how many clubs is
+    - can you give me names of clubs in abesec
+    - list all clubs in abesec
+    - sare clubs k naam batao
+    - muje sare clubs k naam chaiye
+    - kitne clubs hai aake collge me
+    - clubs hai apke yaha
+    - does your college have clubs
+    - do you celebrate anything
+    - do you have any photography club
+    - do you have any literature club
+    - do you have any technical club
+    - name all the clubs
+    - do check all clubs name
+    - clubs me entry procedure
+    - how clubs organise events
+    - do you guys have any clubs
+    - clubs are important
+    - do your clubs host any event
+    - name all the society
+    - sari ke sari society k naam chaiye muje
+    - tell me about [Creative U](club) Club
+    - tell me about [Cultural](club) Club
+    - tell me about [Environ](club) Club
+    - tell me about [Minerva-The Literary](club) Club
+    - tell me about [NSS](club) Club
+    - tell me about [Pelicula-The Movie](club) Club
+    - tell me about [Picturesque](club) Club
+    - tell me about [SAMVAAD Theatre-Dramatics](club) Club
+    - tell me about [Spicmacay](club) Club
+    - tell me about [Spirituality and Yoga](club) Club
+    - tell me about [Student Publication Club-AAGAZ](club)
+    - [Creative U](club) Club
+    - [Cultural](club) Club
+    - [Environ](club) Club
+    - [Minerva-The Literary](club) Club
+    - [NSS](club) Club
+    - [Pelicula-The Movie](club) Club
+    - [Picturesque](club) Club
+    - [SAMVAAD Theatre-Dramatics](club) Club
+    - [Spicmacay](club) Club
+    - [Spirituality and Yoga](club) Club
+    - [Student Publication Club-AAGAZ](club)
+
+
+- intent: infrastr
+  examples: |
+    - classroom kaha hai
+    - kitne classroom hai
+    - classrom kaha kha hai
+    - where are classrooms
+    - how many classroom do you have
+    - how many classroom does aryabhatta block have
+    - how many classroom does bhabha block have
+    - how many classroom does kalpna chawal block have
+    - how many classroom does ramana block have
+    - how many classroom in abesec
+    - where are classroom in abesec
+    - show me all classroom in abesec
+    - list all details of classroom in abesec
+    - show me classroom of abesec
+    - room no of classroom
+    - how many room no are of classroom
+    - room number of classroom
+    - classroom me kya kya hai
+    - classroom kaha kaha hai
+    - classroom konse floor pr hai
+    - on which floor classroom is
+    - how many TUTORIALS ROOMS you have
+    - tutorial rooms
+    - tutorial rooms in abesec
+    - tutorial rooms kaha hai college me
+    - tutorial rooms hai abesec me ?
+    - where are tutorial rooms in abesec
+    - how many tutorial rooms are present in abesec
+    - tutorial rooms kidhar hai
+    - kaha kha hai tutorial rooms
+    - tutorial rooms in aryabhatta block
+    - tutorial rooms in raman block
+    - tutorial rooms in bhabha block
+    - i wanna know about tutorial rooms
+    - tutorial rooms me kya hota hai
+    - konse floor pe hai tutorial rooms
+    - seminar halls kaha hai
+    - seminar halls kitne hai
+    - where is seminar halls
+    - how many seminar halls you have
+    - seminar halls in aryyabhatta block
+    - show me locations of seminar halls
+    - seminar halls kidhar hai
+    - where is seminar hall in abesec
+    - where are seminar halls of abesec
+    - seminar halls me jane k liye rasta
+    - guide me to the way of seminar halls
+    - seminar halls in raman block
+    - seminar halls in KC block
+    - seminar halls in bhabha block
+    - seminar halls 1 kidhar hai
+    - where is seminar halls 2
+    - where is seminar halls 3
+    - where is seminar halls 4
+    - auditorium kaha hai
+    - auditorium kitne hai
+    - where is auditorium
+    - how many auditorium you have
+    - auditorium in abesec
+    - show me locations of auditorium
+    - auditorium kidhar hai
+    - where is auditorium in abesec
+    - where are auditorium of abesec
+    - auditorium me jane k liye rasta
+    - guide me to the way of auditorium
+    - auditorium in raman block
+    - how big is auditorium
+    - how many seats are in auditorium
+    - where is CETL in kalpna chawla block
+    - where are departmental libraries
+
+- intent: centre_of_excellence
+  examples: |
+    - centre of excellence
+    - coe
+    - about coe
+    - coe at abesec
+    - what is coe
+    - coe kya hai
+    - kya hai coe
+    - centre of excellence at abesec
+    - Curriculum centre of excellence
+    - where are Curriculum centre of excellence
+    - where is Curriculum centre of excellence
+    - how many Curriculum centre of excellence you have
+    - how many Centres of Excellence you have
+    - give me some details about Centres of Excellence
+    - where are Centres of Excellence in abesec
+    - Centres of Excellence in abesec is where
+    - departmenat of Centres of Excellence centre of excellence
+    - centre of excellence kitni hai
+    - centre of excellence kidhar hai
+    - how many centre of excellence you have
+    - do you have any centre of excellence
+    - where are kabs
+    - which types of centre of excellence you have
+    - centre of excellence hai
+    - show me all centre of excellence
+    - list all centre of excellence of abesec
+    - where are all centre of excellence
+    - technical centre of excellence
+    - computer centre of excellence
+    - where are centre of excellence in abesec
+    - give details about centre of excellence
+    - centre of excellence me kya kya hota hai
+    - centre of excellence ke timing kya hoti hai
+    - centre of excellence me kya kaam hota hai
+    - I wanna know about centre of excellence in details
+    - where is centre of excellence of all time
+    - how many centre of excellence are there in kc block
+    - Details of Curriculum centre of excellence & Centres of Excellence
+    - give me Details of Curriculum centre of excellence & Centres of Excellence
+
+- intent: photos
+  examples: |
+    - photos of Bhabha Block
+    - photos of Ramanujan Block
+    - photos of Aryabhatta Block
+    - photos of Kalpana Chawla Block
+    - photos of Raman Block
+    - photos of Seminar Halls
+    - show me photos of college blocks
+    - show me pics of college premices
+    - show me photograph of bhabha block
+    - show me photograph of aryabhata block
+    - show me photograph of ramanujan block
+    - show me photograph of raman block
+    - show me photograph of kc block
+    - show me photograph of kalpna chawala block
+    - show some pic of seminar hall
+    - can I have some photos of college
+    - can I have some pics of block
+    - show me photos of classroom
+    - photos of seminar halls
+    - photos of tutorial rooms
+    - complete photos of kc aryabhata block
+    - fotu dikha de yaar college ke
+    - pics of college premises
+    - photos of classes
+    - show me some photos of class
+    - show me some photos of seminar halls
+    - photos dikha do
+    - muje photos chaiye  yar
+    - photo hai aapke paas
+    - Geotagged Photo of classes
+    - Geotagged Photo kya hai
+    - Geotagged Photo pics chaiye muje
+    - i need Geotagged Photo pics
+    - Geotagged Photo milengi kya
+    
+- intent: lakshya
+  examples: |
+    - Lakshya
+    - Lakshya kya  hai
+    - what is Lakshya academy
+    - lakshya hota hai
+    - tell me about lakshya
+    - tell me details about lakshya
+    - what is lakshya
+    - about lakshya
+    - muje details chaiye lakshya
+    - tell me anything about lakshya
+    - who are the advisory board members of lakshya
+    - what is lakshya academy
+    - when lakshya academy was established
+    - what is aim for lakshya academy
+    - how lakshya academy works
+    - objectives of lakshya academy
+    - how can I know about lakshya in  details
+    - I want to know about lakshya academy
+    - muje lakshya k bare me batao
+    - what do you mean by lakshya
+    - what is lakshya in abesec
+    - lakshya in  abesec
+    - lakshya in your college
+    - mai kya kr skta hu lakshya k liye
+    - quality of traning at lakshya
+    - how much traning lakshya academy provide
+    - i need all details about lakshya academy
+    - LAKSHYA – OFFICER’S DEFENCE ACADEMY
+    - what is LAKSHYA – OFFICER’S DEFENCE ACADEMy
+    - what is OFFICER’S DEFENCE ACADEMY
+    - is there any officers defence academy in abesec
+    - I want to go in defence
+    - defence academy k bare me kuch batao
+    - tell me something about defence academy
+    - details about LAKSHYA – OFFICER’S DEFENCE ACADEMY
+    - information about LAKSHYA – OFFICER’S DEFENCE ACADEMY
+    - info about lakshya
+    - show some info about LAKSHYA
+    - what does lakshya academy do
+    - role of lakshya academy
+    - role of lakshya academy in abesec
+    - role of lakshya academy in ABES engineering college
+    - is lakshay academy exist
+    - what is the main role of lakshya academy
+    - lakshya academy me jane k liye contact
+    - name of board members in lakshya
+    - board members name in lakshya academy
+    - give me names of all board members name
+    - LAKSHYA – OFFICER’S DEFENCE ACADEMY
+    - LAKSHYA – OFFICER’S DEFENCE ACADEMY LAKSHYA – OFFICER’S DEFENCE ACADEMY
+
+
